@@ -1,2 +1,2 @@
-# pdf2df-recuperacaoMare-Python
-Código de conversão de tábua de maré, em pdf, para dataframe. Posteriormente, recuperação da curva de maré utilizando spline cúbica, exportação da interpolação minuto a minuto e criação de arquivo .tid (CARIS HIPS and SIPS tidal file).
+# pdf2df-SplineTideRecovey-Python
+Convert tidal data (PDF) from https://www.hidrografico.pt/tabelamares to pandas.DataFrame and recover the full tidal wave shape, using cubic spline algorithm. At the end, a bonus: creation of .tid file (CARIS HIPS and SIPS tidal file).
